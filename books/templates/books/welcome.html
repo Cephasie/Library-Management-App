@@ -1,0 +1,20 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Hello Paul Allen</h1>
+    <h2>I am flying into town tomorrow.</h2>
+    {% for student in students %}
+     <li>{{ student.values }}</li>
+    {% endfor %}
+
+
+
+
+</body>
+</html>
